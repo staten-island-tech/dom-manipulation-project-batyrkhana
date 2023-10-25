@@ -1,10 +1,14 @@
 const DOMSelectors = {
-    
+    form: document.querySelector()
+    albumName:
+    image:
 };
 
-
-
-
+function insert (){
+    DOMSelectors.insertAdjacentHTML (
+        
+    )
+}
 
 
 
