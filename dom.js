@@ -1,16 +1,40 @@
 const DOMSelectors = {
-    form: document.querySelector()
-    albumName:
-    image:
-};
+    form: document.querySelector("#input-form"),
+    card: document.querySelector(".cardBox"),
+    albumImage: document.querySelector(".q-album-image-input"),
+    albumName: document.querySelector(".q-album-name-input"),
+    albumReleaseDate: document.querySelector(".q-album-releaseDate-input"),
+    albumArtist: document.querySelector(".q-album-artist-input"),
+}
 
-function insert (){
-    DOMSelectors.insertAdjacentHTML (
-        
-    )
+DOMSelectors.form.addEventListener ("submit", function (event) {
+    event.preventDefault(); /* Prevents from refreshing the browser*/
+    createCard(); /*Creates a new Card*/
+    clear(); /*clears all input fields*/
+    removeCard(); /*Deletes a Card(album)*/
+});
+
+function createCard() {
+    DOMSelectors.box.insertAdjacentHTML("beforeend",
+  `<div class="create-album">
+      <img src=${DOMSelectors.agentImage.value} alt="Album Cover" class="album-cover-img">
+      <h1 class="album-name-card">${DOMSelectors.albumName.value}</h1>
+      <h2>${DOMSelectors.albumReleaseDate.value}</h2>
+      <h3>${DOMSelectors.albumArtist.value}</h3>
+      <button class="delete">Delete</button>
+    </div>`);
+}
+
+function clear() {
+    DOMSelectors.albumName.value = "";
+    DOMSelectors.albumReleaseDate.value = "";
+    DOMSelectors.albumArtist.value = "";
+    DOMSelectors.albumImage.value = "";
 }
 
 
+function removeCard() {
+}
 
 
 

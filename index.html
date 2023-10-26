@@ -5,12 +5,38 @@
     <title>DOMManipulationProjectBatyrkhan</title>
 </head>
 <body>
-    <form action="" id="form">
-        <label for="firstName">Enter First Name</label>
-        <input type="text" name="artistfirstName" class="artistfirst-name"/>
-        <input type="submit" value="Click To Submit" id="submit"/>
-    </form>
+    <div class="main-about">
+        <h1 class="main-about-heading">Album Creator</h1>
+        <p class="main-about-paragraph">Welcome to my fancy Album Creator! It is very simple and intuitive to use 
+            and I can't wait to see what you make of it. To use it, follow the 
+            instructions bellow and enter some basic information:
+        </p>
+        <div class="main-input-form">
+            <form action="" id="input-form">
+                <div class="q-album-name">
+                    <label for="albumName" class="q-album-name-label">Album Name</label><br>
+                    <input type="text" name="albumName" class="q-album-name-input"><br>
+                </div>
+                <div class="q-album-releaseDate">
+                    <label for="albumReleaseDate" class="q-album-releaseDate-label">Album Release Date</label><br>
+                    <input type="text" name="albumReleaseDate" class="q-album-releaseDate-input"><br>
+                </div>
+                <div class="q-album-artist">
+                    <label for="albumArtist" class="q-album-artist-label">Artist</label><br>
+                    <input type="text" name="albumArtist" class="q-album-artist-input"><br>
+                </div>
+                <div class="q-album-image">
+                    <label for="albumImage" class="q-album-image-label">Image</label><br>
+                    <input type="text" name="albumImage" class="q-album-image-input"><br>
+                </div>
+                <input type="submit" value="Click to Submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <div class="cardBox">
+
+    </div>
     <link rel="stylesheet" href="style.css">
     <script src="dom.js"></script>
-</body>
+  </body> 
 </html>
