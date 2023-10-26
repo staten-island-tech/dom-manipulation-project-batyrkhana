@@ -7,7 +7,6 @@ html,body,* {
 html {
     background-image: url("https://cdn.pixabay.com/photo/2017/11/04/21/09/textile-2918844_1280.jpg");
 }
-
 .main-about {
     padding: 2rem;
     border: 3px solid black;
@@ -79,31 +78,6 @@ html {
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
-}
-.main-input-form {
-    padding: 2rem;
-    border: 3px solid black;
-    border-radius: 1rem;
-    border-top-style: inset; 
-    border-top-color: gold;
-    border-bottom-style: inset;
-    border-bottom-color: gold;
-    border-left-style: groove;
-    border-left-color: rgb(255, 195, 104);
-    border-right-style: groove;
-    border-right-color: rgb(255, 195, 104);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: ghostwhite;
-    font-style: italic;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    grid-template-columns: 10vw 10vw 10vw;
-    position: relative;
-    width: 84vw;
 }
 .q-album-name {
     text-align: center;
@@ -266,4 +240,43 @@ html {
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative;
+}
+.create-album {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    border-top-style: inset; 
+    border-top-color: gold;
+    border-bottom-style: inset;
+    border-bottom-color: gold;
+    border-left-style: groove;
+    border-left-color: rgb(255, 195, 104);
+    border-right-style: groove;
+    border-right-color: rgb(255, 195, 104);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: ghostwhite;
+    width: 60vw;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    position: relative
+}
+#input-form {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: ghostwhite;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    grid-template-columns: 10vw 10vw 10vw;
+    position: relative;
+    width: 84vw;
 }

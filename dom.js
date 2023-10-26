@@ -1,6 +1,6 @@
 const DOMSelectors = {
     form: document.querySelector("#input-form"),
-    card: document.querySelector(".cardBox"),
+    box: document.querySelector(".cardBox"),
     albumImage: document.querySelector(".q-album-image-input"),
     albumName: document.querySelector(".q-album-name-input"),
     albumReleaseDate: document.querySelector(".q-album-releaseDate-input"),
@@ -17,7 +17,7 @@ DOMSelectors.form.addEventListener ("submit", function (event) {
 function createCard() {
     DOMSelectors.box.insertAdjacentHTML("beforeend",
   `<div class="create-album">
-      <img src=${DOMSelectors.agentImage.value} alt="Album Cover" class="album-cover-img">
+      <img src=${DOMSelectors.albumImage.value} alt="Album Cover" class="album-cover-img">
       <h1 class="album-name-card">${DOMSelectors.albumName.value}</h1>
       <h2>${DOMSelectors.albumReleaseDate.value}</h2>
       <h3>${DOMSelectors.albumArtist.value}</h3>
@@ -34,6 +34,7 @@ function clear() {
 
 
 function removeCard() {
+    DOMSelectors.form.addEventListener ("")
 }
 
 
