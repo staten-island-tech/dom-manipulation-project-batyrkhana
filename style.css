@@ -8,7 +8,6 @@ html {
     background-image: url("https://cdn.pixabay.com/photo/2017/11/04/21/09/textile-2918844_1280.jpg");
 }
 .main-about {
-    padding: 2rem;
     border: 3px solid black;
     border-radius: 1rem;
     border-top-style: inset; 
@@ -35,16 +34,6 @@ html {
     text-align: center;
     font-size: 4rem;
     padding: 2rem;
-    border: 3px solid black;
-    border-radius: 1rem;
-    border-top-style: inset; 
-    border-top-color: gold;
-    border-bottom-style: inset;
-    border-bottom-color: gold;
-    border-left-style: groove;
-    border-left-color: rgb(255, 195, 104);
-    border-right-style: groove;
-    border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -59,20 +48,9 @@ html {
     text-align: center;
     font-size: 2rem;
     padding: 2rem;
-    border: 3px solid black;
-    border-radius: 1rem;
-    border-top-style: inset; 
-    border-top-color: gold;
-    border-bottom-style: inset;
-    border-bottom-color: gold;
-    border-left-style: groove;
-    border-left-color: rgb(255, 195, 104);
-    border-right-style: groove;
-    border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     background-color: ghostwhite;
     width: 60vw;
     font-style: italic;
@@ -80,8 +58,8 @@ html {
     position: relative
 }
 .q-album-name {
+    padding: 1rem;
     text-align: center;
-    padding: 2rem;
     border: 3px solid black;
     border-radius: 1rem;
     border-top-style: inset; 
@@ -94,10 +72,8 @@ html {
     border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     background-color: ghostwhite;
-    width: 40rem;
+    width: 20rem;
     font-style: italic;
     position: relative
 }
@@ -105,7 +81,7 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 9rem;
     font-style: italic;
     position: relative
 }
@@ -113,14 +89,15 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 17rem;
+    height: 2rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
 }
 .q-album-releaseDate {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border: 3px solid black;
     border-radius: 1rem;
     border-top-style: inset; 
@@ -137,7 +114,7 @@ html {
     margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
-    width: 40rem;
+    width: 20rem;
     font-style: italic;
     position: relative
 }
@@ -145,7 +122,7 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 18rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
@@ -154,14 +131,15 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 14rem;
+    height: 4rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
 }
 .q-album-artist {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border: 3px solid black;
     border-radius: 1rem;
     border-top-style: inset; 
@@ -178,7 +156,7 @@ html {
     margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
-    width: 40rem;
+    width: 20rem;
     font-style: italic;
     position: relative
 }
@@ -186,7 +164,7 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 18rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
@@ -195,14 +173,15 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 12rem;
+    height: 4rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
 }
 .q-album-image {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     border: 3px solid black;
     border-radius: 1rem;
     border-top-style: inset; 
@@ -219,7 +198,7 @@ html {
     margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
-    width: 40rem;
+    width: 20rem;
     font-style: italic;
     position: relative
 }
@@ -227,7 +206,7 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 18rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
@@ -236,10 +215,35 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 30rem;
+    width: 12rem;
+    height: 4rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative;
+}
+.q-album-submit {
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    border-top-style: inset; 
+    border-top-color: gold;
+    border-bottom-style: inset;
+    border-bottom-color: gold;
+    border-left-style: groove;
+    border-left-color: rgb(255, 195, 104);
+    border-right-style: groove;
+    border-right-color: rgb(255, 195, 104);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Lora', serif;
+    background-color: ghostwhite;
+    width: 20rem;
+    font-style: italic;
+    position: relative
 }
 .create-album {
     text-align: center;
