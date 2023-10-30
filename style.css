@@ -43,6 +43,7 @@ html {
     font-family: 'Lora', serif;
     position: relative
 }
+
 .main-about-paragraph {
     text-align: center;
     font-size: 2rem;
@@ -276,7 +277,6 @@ html {
     font-family: 'Lora', serif;
 }
 .delete{
-    background-color: red;
     font-size: 1rem;
     border-radius: 1rem;
     padding: 1rem;
@@ -316,4 +316,10 @@ html {
     transform: scale(1.1);
     transition: .1s cubic-bezier(.16,.53,.85,.45);
     filter: none;
+    background-color: rgb(247, 107, 14);
+}
+.q-album-submit:hover{
+    background-color: rgb(33, 255, 144);
+    transform: scale(1.1);
+    transition: .1s cubic-bezier(.16,.53,.85,.45);
 }
