@@ -37,7 +37,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     background-color: ghostwhite;
     width: 20vw;
     font-style: italic;
@@ -89,8 +88,8 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 17rem;
-    height: 2rem;
+    width: 12rem;
+    height: 4rem;
     font-style: italic;
     font-family: 'Lora', serif;
     position: relative
@@ -110,8 +109,6 @@ html {
     border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
     width: 20rem;
@@ -131,7 +128,7 @@ html {
     text-align: center;
     font-size: 1.5rem;
     background-color: ghostwhite;
-    width: 14rem;
+    width: 12rem;
     height: 4rem;
     font-style: italic;
     font-family: 'Lora', serif;
@@ -152,8 +149,6 @@ html {
     border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
     width: 20rem;
@@ -194,8 +189,6 @@ html {
     border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
     width: 20rem;
@@ -237,8 +230,6 @@ html {
     border-right-color: rgb(255, 195, 104);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     font-family: 'Lora', serif;
     background-color: ghostwhite;
     width: 20rem;
@@ -246,28 +237,65 @@ html {
     position: relative
 }
 .create-album {
-    text-align: center;
-    font-size: 2rem;
-    padding: 2rem;
-    border: 3px solid black;
-    border-radius: 1rem;
-    border-top-style: inset; 
-    border-top-color: gold;
-    border-bottom-style: inset;
-    border-bottom-color: gold;
-    border-left-style: groove;
-    border-left-color: rgb(255, 195, 104);
-    border-right-style: groove;
-    border-right-color: rgb(255, 195, 104);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: ghostwhite;
-    width: 60vw;
+    width: 30rem;
+    height: 38rem;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    background: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 195, 104);
+    box-shadow: 1rem 2rem 0.25rem; 
+}
+.card-img{
+    height: 24.5rem;
+    width: 29.5rem;
+    object-fit: cover;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+.card-albumName{
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
     font-style: italic;
     font-family: 'Lora', serif;
-    position: relative
+}
+.card-release{
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;    
+    font-style: italic;
+    font-family: 'Lora', serif;
+}
+.card-artist{
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-style: italic;
+    font-family: 'Lora', serif;
+}
+.delete{
+    background-color: red;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    box-shadow: 2px 2px #330a0a;
+}
+.cardBox {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
 }
 #input-form {
     padding: 2rem;
@@ -283,4 +311,9 @@ html {
     grid-template-columns: 10vw 10vw 10vw;
     position: relative;
     width: 84vw;
+}
+.delete:hover {
+    transform: scale(1.1);
+    transition: .1s cubic-bezier(.16,.53,.85,.45);
+    filter: none;
 }
